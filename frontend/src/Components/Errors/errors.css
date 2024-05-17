@@ -1,0 +1,31 @@
+.cont-empty{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.empty-img{
+    width: 150px;
+    
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    background-color: #d3e3e9 ;
+}
+
+.text-empty{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}

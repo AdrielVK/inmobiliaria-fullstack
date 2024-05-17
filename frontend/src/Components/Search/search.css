@@ -1,0 +1,145 @@
+.form-search{
+    background-color: white;
+    display: flex;
+    width: 60%;
+    position: relative;
+    border-radius: 8px;
+    display:flex;
+    box-sizing: border-box;
+    
+    justify-content: center;
+    height: 8vh;
+}
+
+.form-search-deep{
+    background-color: white;
+    display: flex;
+    width: 90%;
+    position: relative;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 90px;
+    justify-content: center;
+    height: 8vh;
+    
+}
+
+.item-search{
+    flex:1;
+    font-size: 1.2vw;
+    display: flex;
+    border: 1px solid hsl(0, 0%, 80%);
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.item-search-deep{
+    flex:1;
+    font-size: 1vw;
+    display: flex;
+    border: 1px solid hsl(0, 0%, 80%);
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    text-align:center;
+    
+}
+
+.ext{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.item-search-types{
+    flex:1;
+    font-size: 1.2vw;
+    border-left: solid 1px #515151;
+    outline: none;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.1s;
+    cursor: pointer;
+    position: relative;
+}
+
+.drop-menu-type{
+    display: flex;
+    position: absolute;
+    font-size: 1.2vw;
+    border-radius: 0;
+    flex:1;
+}
+
+.drop-menu-type-deep{
+    
+    display: flex;
+    position: absolute;
+    font-size: 1vw;
+    border-radius: 0;
+    flex:1;
+    
+}
+
+.item-search-types:hover{
+    
+    border: solid 3px #f1b05c;
+    
+}
+.item-text{
+    font-weight: 600;
+}
+
+
+
+.search-icon{
+    background-color: #f1b05c;
+    box-sizing: border-box;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    cursor: pointer;
+    transition: 0.6s;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-width: 0;
+}
+
+.search-icon-deep{
+    background-color: #f1b05c;
+    box-sizing: border-box;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    cursor: pointer;
+    transition: 0.6s;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-width: 0;
+}
+
+.search-icon:hover{
+    background-color:#d3e3e9 ;
+}
+
+@media screen and (max-width: 800px) {
+    .form-search{
+        
+        width: 90%;
+        
+        
+    }
+    .logo{
+        width: 40px;
+    }
+    .user-picture{
+        width: 30px;
+    }
+}

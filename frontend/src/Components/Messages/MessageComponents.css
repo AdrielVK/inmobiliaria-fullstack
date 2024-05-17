@@ -1,0 +1,127 @@
+.message-success{
+    position: fixed;
+
+    left: 50%;
+    transform: translateX(-50%);
+    width:100%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    background-color: #d4edda; 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 15px;
+}
+
+.message-fail{
+    display: flex;
+    justify-content: center;
+    position: fixed; /* Altura del navbar */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    background-color:#fcccc2; 
+    align-items: center;
+    height: 15px;
+}
+.text-success{
+    color: #155724;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.text-fail{
+    color: #721c24;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.show{
+    opacity: 1;
+}
+
+.inbox-message-list{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    width: 30%;
+    border: 2px solid #d3e3e9;
+    border-radius: 8px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    cursor:pointer ;
+    margin-bottom: 10px;
+    transition-duration: 80ms;
+    
+}
+
+.inbox-message-list:hover{
+    border-color:#f1b05c ;
+}
+
+.item-chat-inbox{
+    margin-inline: 5%;
+}
+
+.strong{
+    font-weight: 700;
+}
+
+.alert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:red;
+    right: 0;
+    position: absolute;
+}
+
+.message-inbox-chat{
+    width: 80%;
+    height: fit-content;
+    border: 1px solid #d3e3e9;
+    border-radius: 8px;
+    margin:2%;
+    padding:1%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.message-inbox-chat-own{
+    width: 80%;
+    height: fit-content;
+    border: 1px solid #f1b05c;
+    border-radius: 8px;
+    margin:2%;
+    padding:1%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+.content-mess{
+    box-sizing: border-box;
+}
+
+.date-mess{
+    font-size: smaller;
+    display: flex;
+    justify-content: flex-end;
+}
+
+

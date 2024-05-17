@@ -1,0 +1,151 @@
+.message-success{
+    margin-top: 90px;
+    top: 0px
+}
+.message-fail{
+    margin-top: 90px;
+    top:0px
+}
+.show{
+    opacity: 1;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 70px;
+    overflow: hidden; /* Asegura que el contenido no se desborde si se agrega opacidad */
+    
+    /* Establece la imagen de fondo */
+    background-image: url('/images/back.webp');
+    
+    background-color:#967f5e ;
+    background-size: cover; /* Ajusta el tamaño para cubrir todo el fondo */
+    background-position: top; /* Centra la imagen en el fondo */
+}
+
+
+
+.title-home{
+    font-family: 'Caveat', cursive;
+    font-size:10vw;
+    color:white;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+.sub-title-home{
+    
+    font-size:3vw;
+    color:white;
+    margin: 0;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+
+.home-section{
+    height: 100vh;
+    width: 100%;
+    background-color: #d3e3e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-home-par{
+    color: #f1b05c;
+    font-size: xx-large;
+    font-weight: 600;
+    margin: 0;
+}
+
+.par-home-par{
+    box-sizing: border-box;
+    padding:4%;
+    margin: 0%;
+    text-align:justify;
+    font-weight: 600;
+    z-index: 1;
+    background-color: white;
+}
+
+.img-home-par{
+    width: 50px;
+    position: absolute;
+    top: 90%; /* Alinea la parte superior del div al 50% del contenedor principal */
+    left: 90%; /* Alinea la izquierda del div al 50% del contenedor principal */
+    transform: translate(-50%, -50%);
+}
+
+.cont-home-image{
+    position: relative; /* Necesario para que position: absolute funcione correctamente */
+    width: 60vw;
+    height: 60vh;
+    border-radius: 8px;
+    overflow: visible;
+}
+
+.cont-home-par{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: white;
+    height: 60%;
+    width: 60%;
+    position: absolute;
+    top: 50%; /* Alinea la parte superior del div al 50% del contenedor principal */
+    left: 80%; /* Alinea la izquierda del div al 50% del contenedor principal */
+    transform: translate(-50%, -50%); /* Centra el div correctamente */
+    padding: 15px; /* Añade un poco de espacio interior */
+}
+.home-image-city{
+    object-fit: cover;
+    width: 70%;
+    height: 70%;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 800px) {
+    .title-home{
+        
+        font-size:15vw;
+        
+    }
+    .par-home-par{
+        font-size: small;
+    }
+    .title-home-par{
+        font-size: medium;
+    }
+
+    .sub-title-home{
+        
+        font-size:5vw;
+        
+    }
+
+    .cont-home-image{
+        width: 80vw;
+        height: 80vh;
+        
+    }
+    
+    .cont-home-par{
+        
+        height: 70%;
+        width: 70%;
+       
+        padding: 8px; /* Añade un poco de espacio interior */
+    }
+
+}
+

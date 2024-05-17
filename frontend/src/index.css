@@ -1,0 +1,19 @@
+:root {
+  font-family: 'Cabin', sans-serif;
+  
+  font-weight: 400;
+  font-size: large;
+  
+  box-sizing: border-box;
+  
+}
+
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #e8eff3;
+}
+
+main{
+  
+}

@@ -1,0 +1,20 @@
+.button-button {
+    font-weight: 700;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #8fa6a9;
+    color: #fff;
+    
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 2%;
+    border: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
+.button-button:hover {
+    background-color:#f1b05c ;
+}
